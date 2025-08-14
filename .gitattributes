@@ -1,0 +1,21 @@
+# Zeilenenden automatisch an das Betriebssystem anpassen
+* text=auto
+
+# Spezifische Dateien als Binärdateien behandeln (keine Zeilenenden konvertieren)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.tar.gz binary
+
+# TypeScript und JavaScript als Textdateien mit automatischer Zeilenendkonvertierung
+*.ts     text
+*.tsx    text
+*.js     text
+*.jsx    text
+*.json   text
+*.css    text
+*.html   text
